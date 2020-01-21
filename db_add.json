@@ -1,0 +1,11 @@
+{
+  "StudentsInfo" : {
+    "Student" : [{
+      "Name" : "Kazuto",
+      "Surname" : "Kirigaya",
+      "Age" : "18",
+      "University" : "KPI",
+      "Faculty" : "FICT"
+    }]
+  }
+}
