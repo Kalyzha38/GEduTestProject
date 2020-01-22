@@ -1,5 +1,5 @@
 from google.cloud import pubsub_v1
-
+from time import sleep
 import os
 import requests
 
@@ -23,6 +23,6 @@ def pub_cf(request):
 
         for line in content.split('\n'):
             publisher.publish(topic_name, line.encode('utf-8'))
-
+            sleep(1)
         return 'Complete'
     return 'Failed'
